@@ -1,0 +1,106 @@
+main {
+    margin-left: 260px;
+}
+
+#skills {
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo-skills {
+    font-size: 1.2vw;
+}
+
+.container-row {
+    margin: 2em 5em;
+}
+
+.icon-skills {
+    color: #f2f2f2;
+    font-size: 1.2vw;
+}
+
+.skills-container-insede {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-skills {
+    color: #f2f2f2;
+    margin: 1.5em;
+}
+
+.lenguajes {
+    display: flex;
+    flex-direction: row;
+    color: #f2f2f2;
+    margin: 1em;
+}
+
+.lenguajes i {
+    margin-right: 1em;
+}
+
+.text {
+    color: #f2f2f2;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+
+.title {
+    border-bottom: 3px solid #0dcaf0;
+    text-align: center;
+}
+
+.button-edit {
+    color: #f2f2f2;
+    width: 50px;
+    font-size: 1.2vw;
+}
+
+.editar {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+@media (max-width: 768px) {
+    main {
+        margin-left: 0px;
+    }
+
+    .text {
+        margin-top: 1em;
+        padding-bottom: 0.5em;
+        font-size: 1.5vh;
+    }
+
+    .container-row {
+        margin: 0em 0em;
+    }
+
+    .title {
+        border-bottom: 2px solid #0dcaf0;
+    }
+
+    .title-skills {
+        font-size: 5vw;
+    }
+
+    .lenguajes {
+        font-size: 4vw;
+        margin: 0.5em;
+    }
+
+    .icon-skills {
+        font-size: 5vw;
+    }
+
+    .button-edit  {
+        font-size: 4vw;
+    }
+}

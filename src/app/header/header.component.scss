@@ -1,0 +1,46 @@
+.banner {
+  background-image: url('https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif');
+  height: 100vh;
+  justify-content: center;  
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+.img-inside {
+  height: 350px;
+}
+
+.title-name {
+  color: #f2f2f2;
+}
+
+.caption-name {
+  color: #f2f2f2;
+}
+
+main {
+  margin-left: 260px;
+}
+
+@media (max-width: 1400px) {
+  .img-inside {
+    height: 240px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  main {
+      margin-left: 0px;
+  }
+
+  .bg-image h3 {
+      font-size: 3vh;
+  }
+
+  .img-inside {
+      height: 150px;
+  }
+}
