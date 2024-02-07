@@ -9,12 +9,16 @@ nav {
     justify-content: center;
 }
 
+.list-name {
+    font-size: 1.3rem;
+}
+
 .sidebar {
     position: fixed;
     height: 100vh;
     top: 0;
     background-color: #040b14;
-    width: 260px;
+    width: 300px;
     justify-content: center;  
     flex-direction: column;
     display: flex;
@@ -67,11 +71,19 @@ ul li a{
         margin-bottom: 1em;
         margin-top: 1em;
     }
+
+    .list-name {
+        font-size: 1rem;
+    }
     
 }
 
 @media (max-width: 768px) {
     .sidebar {
         display: none;
+    }
+
+    .list-name {
+        font-size: 1.3rem;
     }
 }
